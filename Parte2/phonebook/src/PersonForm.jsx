@@ -16,7 +16,7 @@ const PersonForm = ({ addPerson, newName, handleNameChange, newNumber, handleNum
           placeholder='Number Phone'
           type='number'
           name="quantity"
-          min="1" 
+          min="2" 
           value={newNumber} 
           onChange={handleNumberChange} 
           required
